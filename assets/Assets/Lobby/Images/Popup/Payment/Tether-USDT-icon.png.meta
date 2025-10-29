@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "c86dfea4-2748-4af3-bee3-f74ad40820e7",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 56,
+  "height": 56,
+  "platformSettings": {},
+  "subMetas": {
+    "Tether-USDT-icon": {
+      "ver": "1.0.6",
+      "uuid": "f45c8d76-ddd9-4eb2-afa3-c600070bf21b",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "c86dfea4-2748-4af3-bee3-f74ad40820e7",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 56,
+      "height": 56,
+      "rawWidth": 56,
+      "rawHeight": 56,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

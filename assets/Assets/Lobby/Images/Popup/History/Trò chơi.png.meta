@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "f8f3b313-9284-481e-b641-f97ac65db98e",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 101,
+  "height": 22,
+  "platformSettings": {},
+  "subMetas": {
+    "Trò chơi": {
+      "ver": "1.0.6",
+      "uuid": "a60c9394-8c5d-49e8-b383-7429cc46baeb",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "f8f3b313-9284-481e-b641-f97ac65db98e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 101,
+      "height": 22,
+      "rawWidth": 101,
+      "rawHeight": 22,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

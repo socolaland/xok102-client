@@ -1,0 +1,174 @@
+
+THANTAI.png
+size: 4096,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Comp 1_00007
+  rotate: false
+  xy: 3799, 522
+  size: 90, 93
+  orig: 90, 93
+  offset: 0, 0
+  index: -1
+Comp 1_00008
+  rotate: false
+  xy: 151, 40
+  size: 107, 110
+  orig: 107, 110
+  offset: 0, 0
+  index: -1
+Comp 1_00009
+  rotate: false
+  xy: 1209, 8
+  size: 128, 125
+  orig: 128, 125
+  offset: 0, 0
+  index: -1
+Comp 1_00010
+  rotate: false
+  xy: 2, 6
+  size: 147, 144
+  orig: 147, 144
+  offset: 0, 0
+  index: -1
+Comp 1_00011
+  rotate: false
+  xy: 3895, 671
+  size: 164, 164
+  orig: 164, 164
+  offset: 0, 0
+  index: -1
+Comp 1_00012
+  rotate: false
+  xy: 3895, 837
+  size: 185, 185
+  orig: 185, 185
+  offset: 0, 0
+  index: -1
+Comp 1_00013
+  rotate: false
+  xy: 3591, 409
+  size: 206, 206
+  orig: 206, 206
+  offset: 0, 0
+  index: -1
+Comp 1_00014
+  rotate: false
+  xy: 3364, 364
+  size: 225, 226
+  orig: 225, 226
+  offset: 0, 0
+  index: -1
+Comp 1_00015
+  rotate: false
+  xy: 3116, 342
+  size: 246, 248
+  orig: 246, 248
+  offset: 0, 0
+  index: -1
+Comp 1_00016
+  rotate: false
+  xy: 2848, 275
+  size: 266, 269
+  orig: 266, 269
+  offset: 0, 0
+  index: -1
+Comp 1_00017
+  rotate: false
+  xy: 2561, 244
+  size: 285, 291
+  orig: 285, 291
+  offset: 0, 0
+  index: -1
+Comp 1_00018
+  rotate: false
+  xy: 2253, 221
+  size: 306, 314
+  orig: 306, 314
+  offset: 0, 0
+  index: -1
+Comp 1_00019
+  rotate: false
+  xy: 1925, 190
+  size: 326, 336
+  orig: 326, 336
+  offset: 0, 0
+  index: -1
+Comp 1_00020
+  rotate: false
+  xy: 1577, 157
+  size: 346, 360
+  orig: 346, 360
+  offset: 0, 0
+  index: -1
+Comp 1_00021
+  rotate: false
+  xy: 1209, 135
+  size: 366, 382
+  orig: 366, 382
+  offset: 0, 0
+  index: -1
+Comp 1_00022
+  rotate: false
+  xy: 3508, 617
+  size: 385, 405
+  orig: 385, 405
+  offset: 0, 0
+  index: -1
+Comp 1_00023
+  rotate: false
+  xy: 3102, 592
+  size: 404, 430
+  orig: 404, 430
+  offset: 0, 0
+  index: -1
+Comp 1_00024
+  rotate: true
+  xy: 754, 2
+  size: 424, 453
+  orig: 424, 453
+  offset: 0, 0
+  index: -1
+Comp 1_00025
+  rotate: false
+  xy: 2655, 546
+  size: 445, 476
+  orig: 445, 476
+  offset: 0, 0
+  index: -1
+Comp 1_00026
+  rotate: false
+  xy: 2190, 537
+  size: 463, 485
+  orig: 463, 485
+  offset: 0, 0
+  index: -1
+Comp 1_00027
+  rotate: false
+  xy: 1705, 528
+  size: 483, 494
+  orig: 483, 494
+  offset: 0, 0
+  index: -1
+Comp 1_00028
+  rotate: false
+  xy: 1200, 519
+  size: 503, 503
+  orig: 503, 503
+  offset: 0, 0
+  index: -1
+LIGHT
+  rotate: false
+  xy: 2, 152
+  size: 750, 870
+  orig: 750, 870
+  offset: 0, 0
+  index: -1
+THAN
+  rotate: false
+  xy: 754, 428
+  size: 444, 594
+  orig: 444, 594
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,168 @@
+name: Build iOS App
+
+on:
+  workflow_dispatch:  # Cho phép trigger thủ công
+    inputs:
+      build_mode:
+        description: 'Build mode (debug/release)'
+        required: false
+        default: 'release'
+        type: choice
+        options:
+          - debug
+          - release
+
+jobs:
+  build-ios:
+    runs-on: macos-13  # Sử dụng macOS runner
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '14'
+      
+      - name: Download and Install Cocos Creator 2.4.9
+        run: |
+          echo "📦 Downloading Cocos Creator 2.4.9..."
+          
+          # Download Cocos Creator 2.4.9 for macOS (ZIP format)
+          curl -L -o CocosCreator.zip "https://download.cocos.com/CocosCreator/v2.4.9/CocosCreator_v2.4.9_20220412_mac.zip"
+          
+          echo "📦 Extracting ZIP..."
+          unzip -q CocosCreator.zip
+          
+          echo "📂 Installing Cocos Creator..."
+          mv CocosCreator.app /Applications/
+          
+          echo "✅ Cocos Creator installed successfully"
+          /Applications/CocosCreator.app/Contents/MacOS/CocosCreator --version || echo "Version check skipped"
+      
+      - name: Build iOS Project with Cocos Creator
+        run: |
+          echo "🔨 Building iOS project from Cocos Creator..."
+          
+          BUILD_MODE="${{ github.event.inputs.build_mode || 'release' }}"
+          DEBUG_FLAG="false"
+          if [ "$BUILD_MODE" = "debug" ]; then
+            DEBUG_FLAG="true"
+          fi
+          
+          /Applications/CocosCreator.app/Contents/MacOS/CocosCreator \
+            --path "$GITHUB_WORKSPACE" \
+            --build "platform=ios;debug=$DEBUG_FLAG;packageName=com.xok102.ios;md5Cache=false;buildPath=build" \
+            --force
+          
+          echo "✅ iOS project built successfully"
+          
+          # Kiểm tra kết quả build
+          if [ -d "build/jsb-link" ] || [ -d "build/jsb-default" ]; then
+            echo "✅ Build folder created"
+            ls -la build/
+          else
+            echo "❌ Build failed - no output folder found"
+            exit 1
+          fi
+      
+      - name: Find Xcode Project Path
+        id: find_xcode
+        run: |
+          echo "🔍 Searching for Xcode project..."
+          
+          # Tìm đường dẫn Xcode project
+          XCODE_PROJECT=$(find build -name "*.xcodeproj" -type d | head -n 1)
+          
+          if [ -z "$XCODE_PROJECT" ]; then
+            echo "❌ Xcode project not found!"
+            find build -type d -name "*.xcodeproj" || true
+            find build -type d | head -20
+            exit 1
+          fi
+          
+          echo "✅ Found Xcode project: $XCODE_PROJECT"
+          echo "xcode_project=$XCODE_PROJECT" >> $GITHUB_OUTPUT
+          
+          # Tìm scheme name
+          SCHEME_NAME=$(basename "$XCODE_PROJECT" .xcodeproj)
+          echo "scheme_name=$SCHEME_NAME" >> $GITHUB_OUTPUT
+          echo "✅ Scheme name: $SCHEME_NAME"
+      
+      - name: Build Xcode Archive (Unsigned)
+        run: |
+          echo "🏗️ Building Xcode archive..."
+          
+          XCODE_PROJECT="${{ steps.find_xcode.outputs.xcode_project }}"
+          SCHEME_NAME="${{ steps.find_xcode.outputs.scheme_name }}"
+          ARCHIVE_PATH="$RUNNER_TEMP/Xok102.xcarchive"
+          
+          # Build archive without code signing
+          xcodebuild \
+            -project "$XCODE_PROJECT" \
+            -scheme "$SCHEME_NAME" \
+            -archivePath "$ARCHIVE_PATH" \
+            -sdk iphoneos \
+            -configuration Release \
+            -destination 'generic/platform=iOS' \
+            CODE_SIGN_IDENTITY="" \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGNING_ALLOWED=NO \
+            clean archive
+          
+          echo "✅ Archive created successfully"
+          ls -lh "$ARCHIVE_PATH"
+      
+      - name: Export Unsigned IPA
+        run: |
+          echo "📦 Exporting unsigned IPA..."
+          
+          ARCHIVE_PATH="$RUNNER_TEMP/Xok102.xcarchive"
+          OUTPUT_DIR="$RUNNER_TEMP/IPA"
+          APP_NAME="${{ steps.find_xcode.outputs.scheme_name }}"
+          
+          # Tạo thư mục output
+          mkdir -p "$OUTPUT_DIR/Payload"
+          
+          # Copy .app vào Payload
+          cp -R "$ARCHIVE_PATH/Products/Applications/$APP_NAME.app" "$OUTPUT_DIR/Payload/"
+          
+          # Tạo IPA
+          cd "$OUTPUT_DIR"
+          zip -r "Xok102-unsigned.ipa" Payload
+          
+          # Di chuyển IPA ra ngoài
+          mv "Xok102-unsigned.ipa" "$RUNNER_TEMP/"
+          
+          echo "✅ IPA created successfully"
+          ls -lh "$RUNNER_TEMP/Xok102-unsigned.ipa"
+          
+          # Hiển thị thông tin IPA
+          unzip -l "$RUNNER_TEMP/Xok102-unsigned.ipa" | head -20
+      
+      - name: Upload Unsigned IPA
+        uses: actions/upload-artifact@v4
+        with:
+          name: Xok102-iOS-Unsigned-${{ github.event.inputs.build_mode || 'release' }}
+          path: ${{ runner.temp }}/Xok102-unsigned.ipa
+          retention-days: 30
+      
+      - name: Build Summary
+        run: |
+          echo "## ✅ Build Completed Successfully!" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 📱 App Information" >> $GITHUB_STEP_SUMMARY
+          echo "- **App Name:** Xok102" >> $GITHUB_STEP_SUMMARY
+          echo "- **Bundle ID:** com.xok102.ios" >> $GITHUB_STEP_SUMMARY
+          echo "- **Build Mode:** ${{ github.event.inputs.build_mode || 'release' }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Cocos Creator:** 2.4.9" >> $GITHUB_STEP_SUMMARY
+          echo "- **Platform:** iOS" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 📦 Download IPA" >> $GITHUB_STEP_SUMMARY
+          echo "Go to **Actions** tab → Click on this workflow run → Download artifact" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### ⚠️ Important Notes" >> $GITHUB_STEP_SUMMARY
+          echo "- This IPA is **unsigned**" >> $GITHUB_STEP_SUMMARY
+          echo "- You need to **re-sign** it before distribution" >> $GITHUB_STEP_SUMMARY
+          echo "- Use **fastlane** or **zsign** to re-sign the IPA" >> $GITHUB_STEP_SUMMARY

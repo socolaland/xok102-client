@@ -1,0 +1,13 @@
+{
+  "ver": "1.1.3",
+  "uuid": "ca22972e-2112-4239-bf74-5208813e88d5",
+  "importer": "folder",
+  "isBundle": true,
+  "bundleName": "Xocdia_Bundle",
+  "priority": 1,
+  "compressionType": {},
+  "optimizeHotUpdate": {},
+  "inlineSpriteFrames": {},
+  "isRemoteBundle": {},
+  "subMetas": {}
+}

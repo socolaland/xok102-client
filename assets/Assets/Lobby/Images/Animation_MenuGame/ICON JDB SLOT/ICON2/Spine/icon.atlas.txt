@@ -1,0 +1,20 @@
+
+icon.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+JDB_ICON1
+  rotate: false
+  xy: 2, 111
+  size: 290, 273
+  orig: 290, 273
+  offset: 0, 0
+  index: -1
+LI
+  rotate: false
+  xy: 2, 2
+  size: 125, 107
+  orig: 125, 107
+  offset: 0, 0
+  index: -1

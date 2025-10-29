@@ -1,0 +1,70 @@
+{
+  "group-list": [
+    "Default",
+    "Objects",
+    "Walls",
+    "New Group 5"
+  ],
+  "collision-matrix": [
+    [
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false
+    ]
+  ],
+  "excluded-modules": [
+    "Collider",
+    "Physics",
+    "TiledMap",
+    "VideoPlayer",
+    "3D",
+    "3D Primitive",
+    "3D Physics/cannon.js",
+    "3D Physics/Builtin",
+    "3D Particle"
+  ],
+  "preview-port": 7456,
+  "design-resolution-width": 828,
+  "design-resolution-height": 1430,
+  "fit-width": false,
+  "fit-height": true,
+  "use-project-simulator-setting": true,
+  "simulator-orientation": false,
+  "use-customize-simulator": true,
+  "simulator-resolution": {
+    "width": 828,
+    "height": 1400
+  },
+  "clear-simulator-cache": true,
+  "facebook": {
+    "enable": false,
+    "appID": "",
+    "live": {
+      "enable": false
+    },
+    "audience": {
+      "enable": false
+    }
+  },
+  "start-scene": "b4d38c07-bc96-4b8e-8a92-ba30d9dc1d52",
+  "last-module-event-record-time": 1761459833123,
+  "migrate-history": [
+    "cloud-function"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "d202452f-7aff-4ef5-8863-33cf538db3ef",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 145,
+  "height": 130,
+  "platformSettings": {},
+  "subMetas": {
+    "PG_BANCA_ICON2": {
+      "ver": "1.0.6",
+      "uuid": "2654d831-b5a8-489a-b591-78cb1da6b8b4",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "d202452f-7aff-4ef5-8863-33cf538db3ef",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1.5,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 142,
+      "height": 130,
+      "rawWidth": 145,
+      "rawHeight": 130,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

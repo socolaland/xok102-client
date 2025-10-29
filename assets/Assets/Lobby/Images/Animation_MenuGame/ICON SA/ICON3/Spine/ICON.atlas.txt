@@ -1,0 +1,13 @@
+
+ICON.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SBO_ICON2
+  rotate: false
+  xy: 2, 2
+  size: 278, 146
+  orig: 278, 146
+  offset: 0, 0
+  index: -1

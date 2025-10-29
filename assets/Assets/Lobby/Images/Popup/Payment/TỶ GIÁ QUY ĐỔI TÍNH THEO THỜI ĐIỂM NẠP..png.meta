@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "8f6337d7-78a2-40ff-8f4b-ac47102f3cf7",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 741,
+  "height": 44,
+  "platformSettings": {},
+  "subMetas": {
+    "TỶ GIÁ QUY ĐỔI TÍNH THEO THỜI ĐIỂM NẠP.": {
+      "ver": "1.0.6",
+      "uuid": "72f25af3-b139-48d5-9c7d-04c4464a36ae",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "8f6337d7-78a2-40ff-8f4b-ac47102f3cf7",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 741,
+      "height": 44,
+      "rawWidth": 741,
+      "rawHeight": 44,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

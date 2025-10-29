@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "bf390555-0617-4a58-bf41-cd176886ed1a",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 55,
+  "height": 199,
+  "platformSettings": {},
+  "subMetas": {
+    "Rounded Rectangle 629 copy 4": {
+      "ver": "1.0.6",
+      "uuid": "f878f2ac-2d35-438f-84bd-3fe6cd38f6a8",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "bf390555-0617-4a58-bf41-cd176886ed1a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 55,
+      "height": 199,
+      "rawWidth": 55,
+      "rawHeight": 199,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

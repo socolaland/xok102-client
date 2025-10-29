@@ -1,0 +1,146 @@
+
+ICONGAME.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BANCAMATCA
+  rotate: true
+  xy: 2, 2
+  size: 54, 56
+  orig: 54, 56
+  offset: 0, 0
+  index: -1
+BANCAMATCA2
+  rotate: true
+  xy: 60, 2
+  size: 54, 56
+  orig: 54, 56
+  offset: 0, 0
+  index: -1
+BANCATAYCA
+  rotate: false
+  xy: 825, 36
+  size: 114, 96
+  orig: 114, 96
+  offset: 0, 0
+  index: -1
+BANCATAYCA2
+  rotate: false
+  xy: 328, 126
+  size: 155, 128
+  orig: 155, 128
+  offset: 0, 0
+  index: -1
+BANCATHANCA
+  rotate: true
+  xy: 2, 58
+  size: 196, 324
+  orig: 196, 324
+  offset: 0, 0
+  index: -1
+KHOI1
+  rotate: false
+  xy: 1964, 140
+  size: 75, 114
+  orig: 75, 114
+  offset: 0, 0
+  index: -1
+KHOI10
+  rotate: true
+  xy: 1130, 142
+  size: 112, 145
+  orig: 112, 145
+  offset: 0, 0
+  index: -1
+KHOI11
+  rotate: true
+  xy: 979, 138
+  size: 116, 149
+  orig: 116, 149
+  offset: 0, 0
+  index: -1
+KHOI12
+  rotate: true
+  xy: 672, 136
+  size: 118, 152
+  orig: 118, 152
+  offset: 0, 0
+  index: -1
+KHOI13
+  rotate: true
+  xy: 328, 2
+  size: 122, 154
+  orig: 122, 154
+  offset: 0, 0
+  index: -1
+KHOI14
+  rotate: true
+  xy: 826, 134
+  size: 120, 151
+  orig: 120, 151
+  offset: 0, 0
+  index: -1
+KHOI2
+  rotate: false
+  xy: 740, 16
+  size: 83, 118
+  orig: 83, 118
+  offset: 0, 0
+  index: -1
+KHOI3
+  rotate: true
+  xy: 615, 33
+  size: 101, 123
+  orig: 101, 123
+  offset: 0, 0
+  index: -1
+KHOI4
+  rotate: true
+  xy: 485, 58
+  size: 104, 128
+  orig: 104, 128
+  offset: 0, 0
+  index: -1
+KHOI5
+  rotate: true
+  xy: 1831, 148
+  size: 106, 131
+  orig: 106, 131
+  offset: 0, 0
+  index: -1
+KHOI6
+  rotate: true
+  xy: 1696, 145
+  size: 109, 133
+  orig: 109, 133
+  offset: 0, 0
+  index: -1
+KHOI7
+  rotate: true
+  xy: 1558, 145
+  size: 109, 136
+  orig: 109, 136
+  offset: 0, 0
+  index: -1
+KHOI8
+  rotate: true
+  xy: 1418, 146
+  size: 108, 138
+  orig: 108, 138
+  offset: 0, 0
+  index: -1
+KHOI9
+  rotate: true
+  xy: 1277, 143
+  size: 111, 139
+  orig: 111, 139
+  offset: 0, 0
+  index: -1
+Layer 2552
+  rotate: false
+  xy: 485, 164
+  size: 185, 90
+  orig: 185, 90
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,13 @@
+
+ICON.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+XOSO_LIVE_ICON23
+  rotate: false
+  xy: 2, 2
+  size: 273, 241
+  orig: 273, 241
+  offset: 0, 0
+  index: -1

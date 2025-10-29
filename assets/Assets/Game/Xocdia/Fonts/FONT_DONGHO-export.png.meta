@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "0c5b44f7-dfe0-4556-b3f3-41ab516aac13",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 128,
+  "height": 256,
+  "platformSettings": {},
+  "subMetas": {
+    "FONT_DONGHO-export": {
+      "ver": "1.0.6",
+      "uuid": "e18e7243-2d4a-4db4-ab28-1af1cdc20782",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "0c5b44f7-dfe0-4556-b3f3-41ab516aac13",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -12,
+      "offsetY": 14.5,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 104,
+      "height": 227,
+      "rawWidth": 128,
+      "rawHeight": 256,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

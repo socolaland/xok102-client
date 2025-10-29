@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "f30b61e3-62b6-40d6-b887-9516e89ba8e7",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 234,
+  "height": 54,
+  "platformSettings": {},
+  "subMetas": {
+    "SỰ KIỆN VIP": {
+      "ver": "1.0.6",
+      "uuid": "e21ebe4e-a165-427b-9d00-5c5ef99d5cec",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "f30b61e3-62b6-40d6-b887-9516e89ba8e7",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 234,
+      "height": 54,
+      "rawWidth": 234,
+      "rawHeight": 54,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

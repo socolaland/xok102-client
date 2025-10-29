@@ -1,0 +1,20 @@
+
+main_kiron.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+money
+  rotate: false
+  xy: 1, 251
+  size: 245, 248
+  orig: 245, 248
+  offset: 0, 0
+  index: -1
+main
+  rotate: false
+  xy: 1, 1
+  size: 307, 248
+  orig: 307, 248
+  offset: 0, 0
+  index: -1

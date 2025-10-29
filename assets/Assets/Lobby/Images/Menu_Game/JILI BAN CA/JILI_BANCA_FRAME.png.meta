@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "1995ac36-7a88-4ae3-ac5b-8c773518534d",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 851,
+  "height": 248,
+  "platformSettings": {},
+  "subMetas": {
+    "JILI_BANCA_FRAME": {
+      "ver": "1.0.6",
+      "uuid": "b1978947-f44e-43ad-9372-51f2475b2a95",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "1995ac36-7a88-4ae3-ac5b-8c773518534d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 851,
+      "height": 248,
+      "rawWidth": 851,
+      "rawHeight": 248,
+      "borderTop": 19,
+      "borderBottom": 19,
+      "borderLeft": 19,
+      "borderRight": 19,
+      "subMetas": {}
+    }
+  }
+}

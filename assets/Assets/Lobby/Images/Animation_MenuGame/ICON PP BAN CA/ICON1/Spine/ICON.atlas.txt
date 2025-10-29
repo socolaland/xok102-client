@@ -1,0 +1,160 @@
+
+ICON.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+COWBOY1
+  rotate: false
+  xy: 2, 118
+  size: 276, 367
+  orig: 276, 367
+  offset: 0, 0
+  index: -1
+fire11_00000
+  rotate: false
+  xy: 120, 67
+  size: 50, 18
+  orig: 50, 18
+  offset: 0, 0
+  index: -1
+fire11_00002
+  rotate: false
+  xy: 120, 67
+  size: 50, 18
+  orig: 50, 18
+  offset: 0, 0
+  index: -1
+fire11_00004
+  rotate: false
+  xy: 2, 2
+  size: 55, 21
+  orig: 55, 21
+  offset: 0, 0
+  index: -1
+fire11_00006
+  rotate: false
+  xy: 456, 432
+  size: 54, 24
+  orig: 54, 24
+  offset: 0, 0
+  index: -1
+fire11_00008
+  rotate: false
+  xy: 398, 457
+  size: 56, 28
+  orig: 56, 28
+  offset: 0, 0
+  index: -1
+fire11_00009
+  rotate: false
+  xy: 398, 457
+  size: 56, 28
+  orig: 56, 28
+  offset: 0, 0
+  index: -1
+fire11_00010
+  rotate: false
+  xy: 2, 87
+  size: 57, 29
+  orig: 57, 29
+  offset: 0, 0
+  index: -1
+fire11_00012
+  rotate: false
+  xy: 280, 456
+  size: 57, 29
+  orig: 57, 29
+  offset: 0, 0
+  index: -1
+fire11_00014
+  rotate: false
+  xy: 2, 56
+  size: 57, 29
+  orig: 57, 29
+  offset: 0, 0
+  index: -1
+fire11_00016
+  rotate: false
+  xy: 61, 87
+  size: 57, 29
+  orig: 57, 29
+  offset: 0, 0
+  index: -1
+fire11_00018
+  rotate: false
+  xy: 280, 425
+  size: 57, 29
+  orig: 57, 29
+  offset: 0, 0
+  index: -1
+fire11_00019
+  rotate: false
+  xy: 339, 456
+  size: 57, 29
+  orig: 57, 29
+  offset: 0, 0
+  index: -1
+fire11_00020
+  rotate: false
+  xy: 2, 25
+  size: 57, 29
+  orig: 57, 29
+  offset: 0, 0
+  index: -1
+fire11_00022
+  rotate: false
+  xy: 61, 56
+  size: 57, 29
+  orig: 57, 29
+  offset: 0, 0
+  index: -1
+fire11_00024
+  rotate: false
+  xy: 120, 87
+  size: 57, 29
+  orig: 57, 29
+  offset: 0, 0
+  index: -1
+fire11_00026
+  rotate: false
+  xy: 280, 394
+  size: 57, 29
+  orig: 57, 29
+  offset: 0, 0
+  index: -1
+fire11_00028
+  rotate: false
+  xy: 339, 426
+  size: 57, 28
+  orig: 57, 28
+  offset: 0, 0
+  index: -1
+fire11_00029
+  rotate: false
+  xy: 456, 458
+  size: 54, 27
+  orig: 54, 27
+  offset: 0, 0
+  index: -1
+fire11_00030
+  rotate: false
+  xy: 456, 458
+  size: 54, 27
+  orig: 54, 27
+  offset: 0, 0
+  index: -1
+fire11_00032
+  rotate: false
+  xy: 61, 30
+  size: 48, 24
+  orig: 48, 24
+  offset: 0, 0
+  index: -1
+fire11_00034
+  rotate: false
+  xy: 179, 99
+  size: 34, 17
+  orig: 34, 17
+  offset: 0, 0
+  index: -1

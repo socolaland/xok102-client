@@ -1,0 +1,111 @@
+
+TrungThu.png
+size: 1288,1288
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+TrungThu_Banh
+  rotate: true
+  xy: 1116, 1193
+  size: 30, 42
+  orig: 30, 42
+  offset: 0, 0
+  index: -1
+TrungThu_Board
+  rotate: false
+  xy: 1116, 1225
+  size: 159, 61
+  orig: 159, 61
+  offset: 0, 0
+  index: -1
+TrungThu_Body
+  rotate: true
+  xy: 1160, 1193
+  size: 30, 39
+  orig: 34, 39
+  offset: 4, 0
+  index: -1
+TrungThu_Body1
+  rotate: true
+  xy: 1201, 1198
+  size: 25, 41
+  orig: 27, 41
+  offset: 0, 0
+  index: -1
+TrungThu_Circle
+  rotate: true
+  xy: 1277, 1234
+  size: 26, 8
+  orig: 26, 8
+  offset: 0, 0
+  index: -1
+TrungThu_Den
+  rotate: false
+  xy: 1201, 1173
+  size: 24, 23
+  orig: 24, 23
+  offset: 0, 0
+  index: -1
+TrungThu_Den1
+  rotate: false
+  xy: 1227, 1163
+  size: 10, 33
+  orig: 10, 33
+  offset: 0, 0
+  index: -1
+TrungThu_Den_L
+  rotate: true
+  xy: 1244, 1197
+  size: 26, 31
+  orig: 28, 33
+  offset: 1, 1
+  index: -1
+TrungThu_Den_L1
+  rotate: false
+  xy: 1277, 1209
+  size: 8, 23
+  orig: 8, 23
+  offset: 0, 0
+  index: -1
+TrungThu_Hand
+  rotate: false
+  xy: 1255, 1185
+  size: 14, 10
+  orig: 14, 10
+  offset: 0, 0
+  index: -1
+TrungThu_Hand1
+  rotate: false
+  xy: 1271, 1175
+  size: 14, 10
+  orig: 14, 10
+  offset: 0, 0
+  index: -1
+TrungThu_Header_Bg
+  rotate: false
+  xy: 2, 1120
+  size: 1112, 166
+  orig: 1112, 166
+  offset: 0, 0
+  index: -1
+TrungThu_Point
+  rotate: false
+  xy: 1239, 1181
+  size: 14, 14
+  orig: 16, 16
+  offset: 1, 1
+  index: -1
+TrungThu_Tai
+  rotate: true
+  xy: 1277, 1187
+  size: 20, 9
+  orig: 21, 9
+  offset: 0, 0
+  index: -1
+TrungThu_Tai1
+  rotate: true
+  xy: 1277, 1262
+  size: 24, 9
+  orig: 24, 9
+  offset: 0, 0
+  index: -1

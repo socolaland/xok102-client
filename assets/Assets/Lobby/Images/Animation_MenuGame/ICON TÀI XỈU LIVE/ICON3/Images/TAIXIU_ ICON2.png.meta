@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "09b4c3e0-8f88-47d7-b73a-71e7bf792ae1",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 204,
+  "height": 360,
+  "platformSettings": {},
+  "subMetas": {
+    "TAIXIU_ ICON2": {
+      "ver": "1.0.6",
+      "uuid": "a9521a0c-9149-4f7a-a315-85f9ec20401e",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "09b4c3e0-8f88-47d7-b73a-71e7bf792ae1",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 204,
+      "height": 360,
+      "rawWidth": 204,
+      "rawHeight": 360,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

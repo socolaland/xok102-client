@@ -1,0 +1,20 @@
+
+ICON.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+LIUU
+  rotate: false
+  xy: 209, 49
+  size: 104, 102
+  orig: 104, 102
+  offset: 0, 0
+  index: -1
+ca1
+  rotate: false
+  xy: 2, 2
+  size: 205, 149
+  orig: 205, 149
+  offset: 0, 0
+  index: -1

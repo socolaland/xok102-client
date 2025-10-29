@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "dd66bb23-6ecf-4fe9-9d67-67069e45d9db",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 195,
+  "height": 84,
+  "platformSettings": {},
+  "subMetas": {
+    "jili-logo": {
+      "ver": "1.0.6",
+      "uuid": "e8f0eeb2-7f18-4ea0-8d61-4af4f9126d26",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "dd66bb23-6ecf-4fe9-9d67-67069e45d9db",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 195,
+      "height": 84,
+      "rawWidth": 195,
+      "rawHeight": 84,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

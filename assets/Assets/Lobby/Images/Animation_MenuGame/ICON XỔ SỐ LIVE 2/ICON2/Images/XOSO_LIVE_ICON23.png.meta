@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "aab63dbe-44b3-4a7e-936c-a463ebd941d2",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 273,
+  "height": 241,
+  "platformSettings": {},
+  "subMetas": {
+    "XOSO_LIVE_ICON23": {
+      "ver": "1.0.6",
+      "uuid": "519e53a5-401e-4073-a1a0-bf95f14a6b75",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "aab63dbe-44b3-4a7e-936c-a463ebd941d2",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 273,
+      "height": 241,
+      "rawWidth": 273,
+      "rawHeight": 241,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

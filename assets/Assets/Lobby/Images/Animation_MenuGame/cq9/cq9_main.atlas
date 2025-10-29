@@ -1,0 +1,27 @@
+
+cq9_main.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+den
+  rotate: false
+  xy: 192, 1
+  size: 229, 136
+  orig: 229, 136
+  offset: 0, 0
+  index: -1
+tham
+  rotate: false
+  xy: 1, 251
+  size: 199, 212
+  orig: 199, 212
+  offset: 0, 0
+  index: -1
+thanden
+  rotate: false
+  xy: 1, 1
+  size: 189, 248
+  orig: 189, 248
+  offset: 0, 0
+  index: -1

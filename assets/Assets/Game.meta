@@ -1,0 +1,25 @@
+{
+  "ver": "1.1.3",
+  "uuid": "a2bc31e2-40b1-4725-a243-5b289702e9c1",
+  "importer": "folder",
+  "isBundle": true,
+  "bundleName": "Game",
+  "priority": 1,
+  "compressionType": {
+    "ios": "merge_all_json",
+    "android": "merge_all_json"
+  },
+  "optimizeHotUpdate": {
+    "ios": false,
+    "android": false
+  },
+  "inlineSpriteFrames": {
+    "ios": false,
+    "android": false
+  },
+  "isRemoteBundle": {
+    "ios": true,
+    "android": true
+  },
+  "subMetas": {}
+}

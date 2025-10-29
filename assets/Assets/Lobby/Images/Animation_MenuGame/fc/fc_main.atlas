@@ -1,0 +1,55 @@
+
+fc_main.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+v1
+  rotate: false
+  xy: 361, 78
+  size: 72, 60
+  orig: 72, 60
+  offset: 0, 0
+  index: -1
+v2
+  rotate: false
+  xy: 435, 78
+  size: 63, 56
+  orig: 63, 56
+  offset: 0, 0
+  index: -1
+v3
+  rotate: false
+  xy: 266, 1
+  size: 93, 77
+  orig: 93, 77
+  offset: 0, 0
+  index: -1
+v4
+  rotate: false
+  xy: 445, 1
+  size: 59, 51
+  orig: 59, 51
+  offset: 0, 0
+  index: -1
+v5
+  rotate: false
+  xy: 361, 1
+  size: 82, 75
+  orig: 82, 75
+  offset: 0, 0
+  index: -1
+main
+  rotate: false
+  xy: 1, 1
+  size: 263, 248
+  orig: 263, 248
+  offset: 0, 0
+  index: -1
+mat
+  rotate: false
+  xy: 445, 54
+  size: 50, 18
+  orig: 50, 18
+  offset: 0, 0
+  index: -1

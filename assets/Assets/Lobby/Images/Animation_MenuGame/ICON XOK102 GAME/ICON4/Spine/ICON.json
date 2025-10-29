@@ -1,0 +1,96 @@
+{
+"skeleton": { "hash": "hHyZS9fM+DfAsUI/Sl8Dbo3P+Js", "spine": "3.6.53", "width": 439.48, "height": 368, "images": "../Images/" },
+"bones": [
+	{ "name": "root", "x": -0.34, "y": 0.34 },
+	{ "name": "XOK102GAME_ICON4", "parent": "root", "length": 109.71, "rotation": -12.94, "x": -55.35, "y": 24.91 }
+],
+"slots": [
+	{ "name": "XOK102GAME_ICON4", "bone": "XOK102GAME_ICON4", "attachment": "XOK102GAME_ICON4" }
+],
+"skins": {
+	"default": {
+		"XOK102GAME_ICON4": {
+			"XOK102GAME_ICON4": { "x": 63.11, "y": -21.03, "rotation": 12.94, "width": 170, "height": 128 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"XOK102GAME_ICON4": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 11.08,
+						"curve": [ 0.359, 0.43, 0.756, 1 ]
+					},
+					{
+						"time": 0.8333,
+						"angle": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.1667,
+						"angle": 16.68,
+						"curve": [ 0.26, 0, 0.618, 0.44 ]
+					},
+					{ "time": 2.6667, "angle": 11.08 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 4.06,
+						"y": 3.88,
+						"curve": [ 0.382, 0.57, 0.734, 1 ]
+					},
+					{
+						"time": 0.4333,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.7667,
+						"x": 14.83,
+						"y": 14.19,
+						"curve": [ 0.243, 0, 0.65, 0.61 ]
+					},
+					{ "time": 2.6667, "x": 4.06, "y": 3.88 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 0.94,
+						"y": 0.94,
+						"curve": [ 0.37, 0.47, 0.753, 1 ]
+					},
+					{
+						"time": 0.7333,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 2.0667,
+						"x": 0.894,
+						"y": 0.894,
+						"curve": [ 0.253, 0, 0.621, 0.48 ]
+					},
+					{ "time": 2.6667, "x": 0.94, "y": 0.94 }
+				]
+			}
+		}
+	}
+}
+}
