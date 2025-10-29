@@ -1,0 +1,41 @@
+
+main_pp.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+g1
+  rotate: false
+  xy: 1, 1
+  size: 179, 248
+  orig: 179, 248
+  offset: 0, 0
+  index: -1
+g2
+  rotate: false
+  xy: 182, 1
+  size: 147, 248
+  orig: 147, 248
+  offset: 0, 0
+  index: -1
+logo
+  rotate: false
+  xy: 1, 251
+  size: 294, 131
+  orig: 294, 131
+  offset: 0, 0
+  index: -1
+mg2
+  rotate: false
+  xy: 331, 1
+  size: 31, 12
+  orig: 31, 12
+  offset: 0, 0
+  index: -1
+mg1
+  rotate: false
+  xy: 297, 251
+  size: 38, 14
+  orig: 38, 14
+  offset: 0, 0
+  index: -1

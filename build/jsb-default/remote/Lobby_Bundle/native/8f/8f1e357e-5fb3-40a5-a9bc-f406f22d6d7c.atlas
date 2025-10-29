@@ -1,0 +1,13 @@
+
+ICON.png
+size: 401,344
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+v
+  rotate: false
+  xy: 2, 2
+  size: 397, 340
+  orig: 397, 340
+  offset: 0, 0
+  index: -1

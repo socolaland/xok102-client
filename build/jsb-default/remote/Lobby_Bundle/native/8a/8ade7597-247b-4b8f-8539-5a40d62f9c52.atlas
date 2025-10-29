@@ -1,0 +1,41 @@
+
+main_funta.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ruong
+  rotate: false
+  xy: 1, 229
+  size: 211, 187
+  orig: 211, 187
+  offset: 0, 0
+  index: -1
+ca1
+  rotate: false
+  xy: 266, 1
+  size: 204, 248
+  orig: 204, 248
+  offset: 0, 0
+  index: -1
+mat1
+  rotate: false
+  xy: 214, 229
+  size: 47, 39
+  orig: 47, 39
+  offset: 0, 0
+  index: -1
+ca2
+  rotate: false
+  xy: 1, 1
+  size: 263, 226
+  orig: 263, 226
+  offset: 0, 0
+  index: -1
+mat2
+  rotate: false
+  xy: 472, 1
+  size: 33, 33
+  orig: 33, 33
+  offset: 0, 0
+  index: -1

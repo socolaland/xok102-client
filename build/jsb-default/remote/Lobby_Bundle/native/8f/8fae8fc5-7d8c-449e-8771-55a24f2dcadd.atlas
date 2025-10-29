@@ -1,0 +1,20 @@
+
+main_ka.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ninja
+  rotate: false
+  xy: 1, 251
+  size: 237, 248
+  orig: 237, 248
+  offset: 0, 0
+  index: -1
+samu
+  rotate: false
+  xy: 1, 1
+  size: 272, 248
+  orig: 272, 248
+  offset: 0, 0
+  index: -1
