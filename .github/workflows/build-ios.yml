@@ -31,7 +31,7 @@ jobs:
         zip -r Xok102.ipa Payload
     
     - name: Upload IPA
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: Xok102-IPA
         path: build/jsb-link/frameworks/runtime-src/proj.ios_mac/build/Release-iphoneos/Xok102.ipa
