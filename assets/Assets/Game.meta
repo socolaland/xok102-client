@@ -7,19 +7,23 @@
   "priority": 1,
   "compressionType": {
     "ios": "merge_all_json",
-    "android": "merge_all_json"
+    "android": "merge_all_json",
+    "web-mobile": "merge_all_json"
   },
   "optimizeHotUpdate": {
     "ios": false,
-    "android": false
+    "android": false,
+    "web-mobile": false
   },
   "inlineSpriteFrames": {
     "ios": false,
-    "android": false
+    "android": false,
+    "web-mobile": false
   },
   "isRemoteBundle": {
     "ios": true,
-    "android": true
+    "android": true,
+    "web-mobile": false
   },
   "subMetas": {}
 }

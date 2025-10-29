@@ -2,7 +2,7 @@
   "ver": "1.1.3",
   "uuid": "629230e9-8dc5-40c6-aaee-a96cfb6390ae",
   "importer": "folder",
-  "isBundle": true,
+  "isBundle": false,
   "bundleName": "Sicbo_Bundle",
   "priority": 1,
   "compressionType": {},

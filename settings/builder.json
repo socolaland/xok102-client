@@ -26,8 +26,8 @@
     "REMOTE_SERVER_ROOT": "https://remote.lottevip.shop"
   },
   "ios": {
-    "packageName": "org.cocos2d.demo",
-    "REMOTE_SERVER_ROOT": "",
+    "packageName": "net.xokvip.com",
+    "REMOTE_SERVER_ROOT": "https://remote.lottevip.shop",
     "ios_enable_jit": true
   },
   "mac": {
