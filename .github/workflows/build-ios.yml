@@ -7,10 +7,13 @@ on:
 
 jobs:
   build:
-    runs-on: macos-latest
+    runs-on: macos-13
     
     steps:
     - uses: actions/checkout@v4
+    
+    - name: Select Xcode version
+      run: sudo xcode-select -s /Applications/Xcode_15.0.app
     
     - name: Build iOS
       run: |
@@ -19,15 +22,18 @@ jobs:
           -scheme Xok102-mobile \
           -configuration Release \
           -sdk iphoneos \
+          -destination 'generic/platform=iOS' \
+          IPHONEOS_DEPLOYMENT_TARGET=12.0 \
           CODE_SIGN_IDENTITY="" \
           CODE_SIGNING_REQUIRED=NO \
-          CODE_SIGNING_ALLOWED=NO
+          CODE_SIGNING_ALLOWED=NO \
+          ALWAYS_SEARCH_USER_PATHS=NO
     
     - name: Create IPA
       run: |
         cd build/jsb-link/frameworks/runtime-src/proj.ios_mac/build/Release-iphoneos
         mkdir Payload
-        cp -R Xok102.app Payload/
+        cp -R Xok102-mobile.app Payload/ || cp -R Xok102.app Payload/
         zip -r Xok102.ipa Payload
     
     - name: Upload IPA
@@ -35,4 +41,3 @@ jobs:
       with:
         name: Xok102-IPA
         path: build/jsb-link/frameworks/runtime-src/proj.ios_mac/build/Release-iphoneos/Xok102.ipa
-
