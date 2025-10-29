@@ -1,0 +1,76 @@
+
+ICON.png
+size: 3028,515
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ACB
+  rotate: true
+  xy: 1803, 168
+  size: 345, 336
+  orig: 345, 336
+  offset: 0, 0
+  index: -1
+BIDV
+  rotate: true
+  xy: 2241, 31
+  size: 265, 209
+  orig: 265, 209
+  offset: 0, 0
+  index: -1
+FRAME
+  rotate: false
+  xy: 2141, 298
+  size: 885, 215
+  orig: 885, 215
+  offset: 0, 0
+  index: -1
+OIUY
+  rotate: false
+  xy: 1434, 23
+  size: 805, 90
+  orig: 811, 97
+  offset: 3, 3
+  index: -1
+RUONG
+  rotate: true
+  xy: 795, 102
+  size: 411, 606
+  orig: 417, 622
+  offset: 0, 16
+  index: -1
+TECHCOMBANK
+  rotate: false
+  xy: 2694, 57
+  size: 326, 239
+  orig: 326, 239
+  offset: 0, 0
+  index: -1
+TX2
+  rotate: false
+  xy: 795, 2
+  size: 637, 98
+  orig: 644, 105
+  offset: 3, 3
+  index: -1
+cac
+  rotate: true
+  xy: 2452, 47
+  size: 249, 240
+  orig: 249, 249
+  offset: 0, 0
+  index: -1
+li
+  rotate: false
+  xy: 2, 42
+  size: 791, 471
+  orig: 820, 481
+  offset: 12, 0
+  index: -1
+sv
+  rotate: false
+  xy: 1403, 115
+  size: 398, 398
+  orig: 398, 398
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,4 @@
+include ':libcocos2dx',':instantapp'
+project(':libcocos2dx').projectDir = new File('/Users/user279467/Downloads/Contents/CocosCreator.app/Contents/Resources/cocos2d-x/cocos/platform/android/libcocos2dx')
+include ':Xok102'
+project(':Xok102').projectDir = new File(settingsDir, 'app')

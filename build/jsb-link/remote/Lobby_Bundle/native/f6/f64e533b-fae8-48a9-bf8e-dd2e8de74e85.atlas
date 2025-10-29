@@ -1,0 +1,27 @@
+
+r88_main.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ruong
+  rotate: false
+  xy: 1, 251
+  size: 195, 163
+  orig: 195, 163
+  offset: 0, 0
+  index: -1
+chip
+  rotate: false
+  xy: 352, 1
+  size: 158, 131
+  orig: 158, 131
+  offset: 0, 0
+  index: -1
+main
+  rotate: false
+  xy: 1, 1
+  size: 349, 248
+  orig: 349, 248
+  offset: 0, 0
+  index: -1

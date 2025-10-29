@@ -1,0 +1,13 @@
+
+ICON.png
+size: 304,858
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+AG_ICON1
+  rotate: false
+  xy: 2, 2
+  size: 300, 854
+  orig: 305, 856
+  offset: 2, 0
+  index: -1

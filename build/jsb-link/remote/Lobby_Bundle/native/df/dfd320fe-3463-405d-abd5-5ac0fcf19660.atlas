@@ -1,0 +1,41 @@
+
+avatar_glow.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Frame_AvatarUser
+  rotate: false
+  xy: 2, 95
+  size: 149, 148
+  orig: 149, 148
+  offset: 0, 0
+  index: -1
+blur
+  rotate: false
+  xy: 153, 109
+  size: 66, 59
+  orig: 66, 59
+  offset: 0, 0
+  index: -1
+eff2
+  rotate: false
+  xy: 2, 2
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 153, 170
+  size: 73, 73
+  orig: 73, 73
+  offset: 0, 0
+  index: -1
+shine
+  rotate: true
+  xy: 2, 40
+  size: 53, 183
+  orig: 53, 183
+  offset: 0, 0
+  index: -1

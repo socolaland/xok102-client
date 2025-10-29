@@ -1,0 +1,41 @@
+
+main_we.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+g2
+  rotate: false
+  xy: 1, 251
+  size: 137, 248
+  orig: 137, 248
+  offset: 0, 0
+  index: -1
+g1
+  rotate: false
+  xy: 1, 1
+  size: 141, 248
+  orig: 141, 248
+  offset: 0, 0
+  index: -1
+logo
+  rotate: false
+  xy: 140, 251
+  size: 294, 111
+  orig: 294, 111
+  offset: 0, 0
+  index: -1
+mg2
+  rotate: false
+  xy: 436, 269
+  size: 33, 14
+  orig: 33, 14
+  offset: 0, 0
+  index: -1
+mg1
+  rotate: false
+  xy: 436, 251
+  size: 42, 16
+  orig: 42, 16
+  offset: 0, 0
+  index: -1
